@@ -43,7 +43,7 @@ function cheakWin(){
             document.querySelector("#play-again").style.display = "inline"
 
             for(j = 0; j<3; j++){
-                boxes[winConditions[i][j]].style.backgroundColor = "#edf2f4"
+                boxes[winConditions[i][j]].style.backgroundColor = "#8d99ae"
                 boxes[winConditions[i][j]].style.color = "#000"
             }
         }
